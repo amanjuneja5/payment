@@ -70,10 +70,10 @@ jobs:
     #
     #
     # Container test step
-    - name: Container test
-      env:
-        DOCKER_BUILDKIT: 1
-      run: ./test/test.sh container.py --tag ${{ env.COMMIT }}
+    # - name: Container test
+    #   env:
+    #     DOCKER_BUILDKIT: 1
+    #   run: ./test/test.sh container.py --tag ${{ env.COMMIT }}
 
     #
     #
