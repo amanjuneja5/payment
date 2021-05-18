@@ -78,10 +78,10 @@ jobs:
     #
     #
     # Submit coveralls
-    - name: Submit Coveralls
-      env:
-        COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: goveralls -coverprofile=coverage.out -service=github
+    # - name: Submit Coveralls
+    #   env:
+    #     COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   run: goveralls -coverprofile=coverage.out -service=github
 
     
     - name: Login gcloud
